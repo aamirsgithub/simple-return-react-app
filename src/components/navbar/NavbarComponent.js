@@ -5,6 +5,8 @@ import BrandLogo from './../../assets/simple-return-logo.png';
 
 const NavbarComponent = () => {
   return (
+    <>
+    <Container fluid>
     <Navbar expand="lg" className="bg-cyan">
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -40,6 +42,8 @@ const NavbarComponent = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    </Container>
+    </>
   );
 };
 export default NavbarComponent;

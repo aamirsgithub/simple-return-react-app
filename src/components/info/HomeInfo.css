@@ -1,24 +1,20 @@
 .brandNames{
-    width: 1105.138px;
-    height: 155.638px;
-    flex-shrink: 0;
-    background-color: #FFF;
+    background-color: #f7b5b5;
 }
 
 .bg-black{
     background-color: black;
     width: 1440px;
     height: 390px;
-    flex-shrink: 0;
 }
 
 .text-one{
-    color: #ffffff;
+    color: #B9B9B9;
     font-family: Cardium B;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
-    line-height: 35.5px; /* 110.938% */
+    line-height: 110.938% ; /* 35.5px */
 }
 
 .text-two{
@@ -27,15 +23,57 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px; /* 142.857% */
+    line-height: 142.857%; /*  20px*/
 }
 
 .line {
-    margin-left: 50px;
+    /* margin-left: 50px; */
     border: none;
     border-bottom: 2px solid #000;
     border-color: #FFF;
     width: 350px;
     height: 1px;
 }
-  
+
+.customer{
+    width: 354px;
+    height: 383px;
+    flex-shrink: 0;
+}
+
+.bg-white{
+    width: 1440px;
+    height: 6902px;
+    background-color: white;
+}
+
+.custom-card-img {
+    width: 76px;
+    height: 57px;
+    flex-shrink: 0;
+  }
+
+.custom-card-radius{
+    border-radius: 10px;
+    border: 1px solid #7DF9FF;
+    background: #FFF;
+    box-shadow: 0px 8px 30px 0px rgba(125, 249, 255, 0.18);
+}
+
+.custom-card-font{
+    color: #000;
+    font-family: Cardium B;
+    /* font-size: 20px; */
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.custom-card-disc-font{
+    color: #000;
+    font-family: Cardium B;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
