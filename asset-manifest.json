@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/simple-return-react-app.git/static/css/main.257be21b.css",
+    "main.js": "/simple-return-react-app.git/static/js/main.95e5b0c6.js",
+    "static/js/787.ebceaad4.chunk.js": "/simple-return-react-app.git/static/js/787.ebceaad4.chunk.js",
+    "static/media/boxes-floating-1.png": "/simple-return-react-app.git/static/media/boxes-floating-1.415cafafc436700502cc.png",
+    "index.html": "/simple-return-react-app.git/index.html",
+    "main.257be21b.css.map": "/simple-return-react-app.git/static/css/main.257be21b.css.map",
+    "main.95e5b0c6.js.map": "/simple-return-react-app.git/static/js/main.95e5b0c6.js.map",
+    "787.ebceaad4.chunk.js.map": "/simple-return-react-app.git/static/js/787.ebceaad4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.257be21b.css",
+    "static/js/main.95e5b0c6.js"
+  ]
+}
