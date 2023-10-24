@@ -17,7 +17,7 @@ const HomeInfo = () => {
   return (
     <>
       <Container fluid>
-        {/* <Container fluid> */}
+
         <Row className="d-flex align-items-center justify-content-center">
           <Col>
             <div className="only-bg-white text-center mt-5">
@@ -25,7 +25,6 @@ const HomeInfo = () => {
             </div>
           </Col>
         </Row>
-        {/* </Container> */}
         <Row className="d-flex align-items-center justify-content-center">
           <Col xs={6} sm={4} md={2} className="text-center ">
             <div className="only-bg-white">
