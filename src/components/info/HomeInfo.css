@@ -1,0 +1,41 @@
+.brandNames{
+    width: 1105.138px;
+    height: 155.638px;
+    flex-shrink: 0;
+    background-color: #FFF;
+}
+
+.bg-black{
+    background-color: black;
+    width: 1440px;
+    height: 390px;
+    flex-shrink: 0;
+}
+
+.text-one{
+    color: #ffffff;
+    font-family: Cardium B;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35.5px; /* 110.938% */
+}
+
+.text-two{
+    color: #FFF;
+    font-family: Cardium A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+
+.line {
+    margin-left: 50px;
+    border: none;
+    border-bottom: 2px solid #000;
+    border-color: #FFF;
+    width: 350px;
+    height: 1px;
+}
+  

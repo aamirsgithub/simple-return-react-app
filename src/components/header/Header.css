@@ -1,0 +1,29 @@
+header {
+    /* min-height: 100vh; */
+    background: url('../../assets/boxes-floating-1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-cyan{
+    color: #7DF9FF;
+}
+
+.bg-cyan{
+    background-color: #7DF9FF;
+}
+
+.btn-cyan{
+    border-radius: 0px 10px 10px 10px;
+    background: #7DF9FF;
+}
+
+.btn-white{
+    border-radius: 10px 10px 0px 10px;
+    border: 2px solid #7DF9FF;
+    background: #FFF;
+}
+
+.text-body{
+    font-family: sans-serif;
+}
