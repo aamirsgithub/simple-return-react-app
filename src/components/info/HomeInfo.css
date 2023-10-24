@@ -1,5 +1,5 @@
-.brandNames{
-    background-color: #f7b5b5;
+.only-bg-white{
+    background-color: #ffffff;
 }
 
 .bg-black{
@@ -47,9 +47,21 @@
     background-color: white;
 }
 
-.custom-card-img {
+.custom-card-img1 {
     width: 76px;
     height: 57px;
+    flex-shrink: 0;
+  }
+
+  .custom-card-img2 {
+    width: 75px;
+    height: 75px;
+    flex-shrink: 0;
+  }
+
+  .custom-card-img3 {
+    width: 76px;
+    height: 83.076px;
     flex-shrink: 0;
   }
 

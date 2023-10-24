@@ -13,25 +13,22 @@ import Brands3 from "./../../assets/brands/zara.png";
 import Brands4 from "./../../assets/brands/zappos.png";
 import Brands5 from "./../../assets/brands/poshmark.png";
 
-
-
 const HomeInfo = () => {
   return (
     <>
       <Container fluid>
-
-        <Container fluid>
+        {/* <Container fluid> */}
         <Row className="d-flex align-items-center justify-content-center">
           <Col>
-            <div className="brandNames text-center">
-              <p>We've handles customers returns from a variety of brands.</p>
+            <div className="only-bg-white text-center mt-5">
+              <h3>We've handled customers returns from a variety of brands.</h3>
             </div>
           </Col>
         </Row>
-        </Container>
+        {/* </Container> */}
         <Row className="d-flex align-items-center justify-content-center">
           <Col xs={6} sm={4} md={2} className="text-center ">
-            <div className="brandNames">
+            <div className="only-bg-white">
               <img
                 src={Brands0}
                 alt="Brands"
@@ -41,7 +38,7 @@ const HomeInfo = () => {
             </div>
           </Col>
           <Col xs={6} sm={4} md={2} className="text-center ">
-            <div className="brandNames">
+            <div className="only-bg-white">
               <img
                 src={Brands1}
                 alt="Brands"
@@ -51,7 +48,7 @@ const HomeInfo = () => {
             </div>
           </Col>
           <Col xs={6} sm={4} md={2} className="text-center ">
-            <div className="brandNames mt-3">
+            <div className="only-bg-white mt-3">
               <img
                 src={Brands2}
                 alt="Brands"
@@ -61,7 +58,7 @@ const HomeInfo = () => {
             </div>
           </Col>
           <Col xs={6} sm={4} md={2} className="text-center ">
-            <div className="brandNames">
+            <div className="only-bg-white">
               <img
                 src={Brands3}
                 alt="Brands"
@@ -71,7 +68,7 @@ const HomeInfo = () => {
             </div>
           </Col>
           <Col xs={6} sm={4} md={2} className="text-center ">
-            <div className="brandNames">
+            <div className="only-bg-white">
               <img
                 src={Brands4}
                 alt="Brands"
@@ -81,7 +78,7 @@ const HomeInfo = () => {
             </div>
           </Col>
           <Col xs={6} sm={4} md={2} className="text-center ">
-            <div className="brandNames">
+            <div className="only-bg-white">
               <img
                 src={Brands5}
                 alt="Brands"
@@ -115,7 +112,11 @@ const HomeInfo = () => {
                 <br />
                 and efficient, making returning things simple and easy.”
               </p>
-              <p className="text-two"> <span className="font-weight-bold">Monica H.</span> Beloved Customer</p>
+              <p className="text-two">
+                {" "}
+                <span className="font-weight-bold">Monica H.</span> Beloved
+                Customer
+              </p>
             </div>
           </Col>
           <Col
@@ -123,51 +124,96 @@ const HomeInfo = () => {
             md={6}
             className="d-flex align-items-center justify-content-center"
           >
-            <div className="customers">
+            <div className="customers ">
               <img src={CustomersImage} alt="Customers" className="img-fluid" />
             </div>
           </Col>
         </Row>
 
-        <Row>
-          <Col className="d-flex ">
-            <div>
-              <p className="">How it works</p>
-            </div>
-            <div>
-              <p className="">Send back returns in minutes</p>
-            </div>
-          </Col>
-        </Row>
+        <Container>
+          <Row>
+            <Col className="d-flex align-items-center justify-content-center text-center">
+              <div className="py-4">
+                <h1>How it works</h1>
+                <p>Send back returns in minutes</p>
+              </div>
+            </Col>
+          </Row>
 
-        <Row>
-          <Col>
-            <Card className="custom-card-radius" style={{ width: "18rem" }}>
-              <Card.Img
-                className="custom-card-img ms-2 mt-5"
-                variant="top"
-                src={ClockMini}
-              />
-              <Card.Body>
-                <div className="d-flex justify-content-between">
-                  <div>
-                    <Card.Title className="custom-card-font font-14">
-                      Schedule your pickup
-                    </Card.Title>
-                  </div>
-                  <div>
-                    <p>01</p>
-                  </div>
-                </div>
-                <Card.Text>
-                  Enter your pickup information and upload your return label
+          <Row>
+            {/* CARD#1 */}
+            <Col>
+              <Card className="custom-card-radius" style={{ width: "18rem", height: "15rem"}}>
+                <Card.Img
+                  className="custom-card-img1 ms-2 mt-5"
+                  variant="top"
+                  src={ClockMini}
+                />
+                <Card.Text
+                  style={{ position: "absolute", top: "10px", right: "10px" }}
+                >
+                  <h4>01</h4>
                 </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col></Col>
-          <Col></Col>
-        </Row>
+                <Card.Body>
+                  <Card.Title className="custom-card-font font-14">
+                    Schedule your pickup
+                  </Card.Title>
+                  <Card.Text>
+                    Enter your pickup information and upload your return label
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+
+            {/* CARD#2 */}
+            <Col>
+              <Card className="custom-card-radius" style={{ width: "18rem", height: "15rem" }}>
+                <Card.Img
+                  className="custom-card-img2 ms-2 mt-4"
+                  variant="top"
+                  src={HandMini}
+                />
+                <Card.Text
+                  style={{ position: "absolute", top: "10px", right: "10px" }}
+                >
+                  <h4>02</h4>
+                </Card.Text>
+                <Card.Body>
+                  <Card.Title className="custom-card-font font-14">
+                  Select your pickup method
+                  </Card.Title>
+                  <Card.Text>
+                  Leave your package on the doorstep or choose direct handoff 
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+
+            {/* CARD#3 */}
+            <Col>
+              <Card className="custom-card-radius" style={{ width: "18rem", height: "15rem" }}>
+                <Card.Img
+                  className="custom-card-img3 ms-2 mt-4"
+                  variant="top"
+                  src={Clock}
+                />
+                <Card.Text
+                  style={{ position: "absolute", top: "10px", right: "10px" }}
+                >
+                  <h4>03</h4>
+                </Card.Text>
+                <Card.Body>
+                  <Card.Title className="custom-card-font font-14">
+                  Get real-time updates
+                  </Card.Title>
+                  <Card.Text>
+                  You receive a text when it’s been shipped
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
+        </Container>
       </Container>
     </>
   );
