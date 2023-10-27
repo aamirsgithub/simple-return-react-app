@@ -89,7 +89,7 @@ const NavbarComponent = () => {
                 <Nav.Link href="#pricing" className="me-2">
                   Pricing
                 </Nav.Link>
-                <Nav.Link href="#how-it-works" className="me-2">
+                <Nav.Link href="#how-it-works" className="">
                   How it works
                 </Nav.Link>
               </Nav>
@@ -97,15 +97,14 @@ const NavbarComponent = () => {
                 <Navbar.Brand href="#brand-logo">
                   <div className="logo-bg px-4 py-0">
                     <a href="#home">
-                    <img
-                      src={BrandLogo}
-                      width="221px"
-                      height="33px"
-                      style={{ flexShrink: 0 }}
-                      alt="Brand Logo"
-                    />
+                      <img
+                        src={BrandLogo}
+                        width="221px"
+                        height="33px"
+                        style={{ flexShrink: 0 }}
+                        alt="Brand Logo"
+                      />
                     </a>
-
                   </div>
                 </Navbar.Brand>
               </Nav>
@@ -115,7 +114,7 @@ const NavbarComponent = () => {
                 </Nav.Link>
                 <Nav.Link
                   href="#schedule-pickup"
-                  className="btn btn-nav-white py-3 px-5"
+                  className="btn btn-nav-white py-3 px-3"
                 >
                   Schedule a pickup
                 </Nav.Link>
