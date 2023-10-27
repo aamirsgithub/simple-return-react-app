@@ -68,7 +68,7 @@ import BrandLogo from "./../../assets/simple-return-logo.png";
 const NavbarComponent = () => {
   return (
     <>
-      <Container fluid>
+      <Container fluid className="p-0">
         <Navbar expand="lg" className="bg-cyan">
           <Container>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -96,6 +96,7 @@ const NavbarComponent = () => {
               <Nav className="logo-bg mx-auto my-2">
                 <Navbar.Brand href="#brand-logo">
                   <div className="logo-bg px-4 py-0">
+                    <a href="#home">
                     <img
                       src={BrandLogo}
                       width="221px"
@@ -103,6 +104,8 @@ const NavbarComponent = () => {
                       style={{ flexShrink: 0 }}
                       alt="Brand Logo"
                     />
+                    </a>
+
                   </div>
                 </Navbar.Brand>
               </Nav>

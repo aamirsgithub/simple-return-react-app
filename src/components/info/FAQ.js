@@ -9,8 +9,6 @@ const styles = {
   root: {
     display: 'flex',
     alignItems: 'center',
-    width: 450,
-    height: 55,
     flexShrink: 0,
     border: '1px solid #C9C9C9',
     borderRadius: "0px 20px 20px 20px",
@@ -18,7 +16,6 @@ const styles = {
     background: "#FAFAFA",
     boxShadow: "0px 8px 24px 0px rgba(0, 0, 0, 0.18)",
     marginTop: 38,
-
   },
   text: {
     flex: 1,

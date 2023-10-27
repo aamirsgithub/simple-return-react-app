@@ -5,6 +5,24 @@ header {
     background-repeat: no-repeat;
 }
 
+body {
+    font-family: 'Cardium B', Arial, sans-serif;
+  }
+
+.text-Cardium-B{
+    font-family: Cardium B;
+}
+
+.Header-title-font{
+    color: #FFF;
+    text-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+    font-family: Arial;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 113.333%; 
+}
+
 .text-cyan{
     color: #7DF9FF;
 }
@@ -18,12 +36,20 @@ header {
     background: #7DF9FF;
 }
 
+.zip-code-field{
+    width: 450px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 20px;
+border: 2px solid #7DF9FF;
+background: #FFF;
+}
+
+
+
 .btn-white{
     border-radius: 10px 10px 0px 10px;
     border: 2px solid #7DF9FF;
     background: #FFF;
 }
 
-.text-body{
-    font-family: sans-serif;
-}
