@@ -28,20 +28,26 @@ const Header = () => {
             </Col>
           </Row>
 
-          <Row className="px-5 mt-3">
-            <Col sm={4} lg={4}>
-              <div className="d-flex justify-content-start">
-                <a className="btn btn-lg btn-cyan me-2 px-5" href="#">
-                  Get Started
-                </a>
-
-              </div>
-            </Col>
-            <Col sm={4} lg={4} className="" >
-            <a className="btn btn-lg btn-white text-cyan px-5" href="#">
-                  Our Pricing
-                </a>
-            </Col>
+          <Row className="ps-3 ps-md-5 mt-3">
+            <Row>
+              <Col xs={12} lg={6}>
+                <div className="d-flex flex-row flex-wrap justify-content-center justify-content-lg-start">
+                  <a
+                    className="btn btn-lg btn-cyan me-2 mb-2 mb-md-0 px-4 px-md-5"
+                    href="#"
+                  >
+                    Get Started
+                  </a>
+                  <a
+                    className="btn btn-lg btn-white text-cyan px-4 px-md-5"
+                    href="#"
+                  >
+                    Our Pricing
+                  </a>
+                </div>
+              </Col>
+              <Col xs={12} lg={6} className=""></Col>
+            </Row>
           </Row>
 
           <Row className="px-5 mt-3">
@@ -71,4 +77,3 @@ const Header = () => {
 };
 
 export default Header;
-

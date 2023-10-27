@@ -27,11 +27,14 @@
 
 
 .custom-footer {
-    margin-top: -190px;
+    margin-top: -160px;
     background-color: rgb(0, 0, 0);
-    height: 558px;
+    /* height: 558px; */
+    height: 650px;
     flex-shrink: 0;
+    padding-bottom: 90px;
   }
+  
   .custom-row{
     margin-top: 200px;
     width: 1100px;
@@ -50,3 +53,30 @@
     background-color: transparent;
     border: 1px solid #ffffff; 
 }
+
+/* Footer.css
+.footer-cyan-bg {
+    background-color: cyan;
+    margin-bottom: -50px;
+  }
+  
+  .custom-footer {
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+
+  }
+  
+  .custom-row {
+    padding: 30px 15px;
+  }
+  
+  @media (max-width: 767.98px) {
+    .custom-row {
+      flex-direction: column;
+      text-align: center;
+    }
+    .footer-cyan-bg {
+      padding: 20px 0;
+    }
+  } */

@@ -20,13 +20,11 @@ import Support from "./../../assets/support.png";
 import DeliveryBoxes from "./../../assets/delivery-box.png";
 import SittingMan from "./../../assets/sitting-man2.png";
 import iPhone15 from "./../../assets/phone-14pro2.png";
-
 import Rectangle1 from "./../../assets/Rectangle-1.png";
 import Rectangle2 from "./../../assets/Rectangle-2.png";
 import Rectangle3 from "./../../assets/Rectangle-3.png";
 import Rectangle4 from "./../../assets/Rectangle-4.png";
 import Rectangle5 from "./../../assets/Rectangle-5.png";
-
 import FedEx from "./../../assets/brand-fedex.png";
 import BrandUPS from "./../../assets/brand-ups.png";
 import BrandUSPS from "./../../assets/brand-usps.png";

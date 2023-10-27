@@ -1,3 +1,10 @@
+@media (max-width: 768px) {
+    .Header-title-font {
+      font-size: 18px; /* Adjust the font size according to your requirement */
+    }
+  }
+  
+
 header {
     /* min-height: 100vh; */
     background: url('../../assets/boxes-floating-1.png');
