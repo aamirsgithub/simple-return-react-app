@@ -4,6 +4,7 @@ import NavbarComponent from "../navbar/NavbarComponent";
 import image from "./../../assets/boxes-floating-1.png";
 import { Container, Row, Col, FormControl, InputGroup } from "react-bootstrap";
 import CustomLocationIcon from "./../../assets/location-icon.png";
+import CustomComponent from "./CustomInputField";
 
 const Header = () => {
   return (
@@ -51,23 +52,11 @@ const Header = () => {
           </Row>
 
           <Row className="px-5 mt-3">
-            <Col lg={4}>
-              <InputGroup className="mb-3">
-                <InputGroup.Text id="basic-addon1">
-                  <img
-                    src={CustomLocationIcon}
-                    alt="Location Icon"
-                    style={{
-                      width: "28px",
-                    }}
-                  />
-                </InputGroup.Text>
-                <FormControl
-                  placeholder="Enter Zip Code"
-                  aria-label="Zip Code"
-                  aria-describedby="basic-addon1"
-                />
-              </InputGroup>
+            <Col
+              lg={5}
+              className="d-flex flex-row flex-wrap justify-content-center justify-content-lg-start"
+            >
+              <CustomComponent />
             </Col>
           </Row>
         </Container>

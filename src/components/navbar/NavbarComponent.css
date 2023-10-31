@@ -25,3 +25,8 @@
 .bg-body-tertiary{
     background-color: #7DF9FF;
 }
+
+.Link{
+    text-decoration: none;
+    color: black;
+}

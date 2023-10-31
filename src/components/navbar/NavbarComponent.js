@@ -2,6 +2,7 @@ import React from "react";
 import "./NavbarComponent.css";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import BrandLogo from "./../../assets/simple-return-logo.png";
+import { Link } from "react-router-dom";
 
 const NavbarComponent = () => {
   return (
@@ -12,10 +13,13 @@ const NavbarComponent = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link href="#home" className="me-2">
+                <Link to="/home" className="Link me-3">
                   Home
-                </Nav.Link>
-                <NavDropdown
+                </Link>
+                <Link to="/about" className="Link me-3">
+                  About
+                </Link>
+                {/* <NavDropdown
                   title="About"
                   id="basic-nav-dropdown"
                   className="me-2"
@@ -23,13 +27,13 @@ const NavbarComponent = () => {
                   <NavDropdown.Item href="#action/3.1">Item 1</NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.2">Item 2</NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.3">Item 3</NavDropdown.Item>
-                </NavDropdown>
-                <Nav.Link href="#pricing" className="me-2">
+                </NavDropdown> */}
+                <Link to="/Pricing" className="Link me-3">
                   Pricing
-                </Nav.Link>
-                <Nav.Link href="#how-it-works" className="">
+                </Link>
+                <Link to="/how-it-works" className="Link">
                   How it works
-                </Nav.Link>
+                </Link>
               </Nav>
               <Nav className="logo-bg mx-auto my-2">
                 <Navbar.Brand href="#brand-logo">
@@ -47,15 +51,19 @@ const NavbarComponent = () => {
                 </Navbar.Brand>
               </Nav>
               <Nav>
-                <Nav.Link href="#sign-in" className=" me-3 py-3">
+              <Link to="/sign-in" className="Link me-2 mt-3">
                   Sign in
-                </Nav.Link>
-                <Nav.Link
+                </Link>
+
+                <Link to="/schedule-pickup" className="Link btn btn-nav-white py-3 px-3">
+                Schedule a pickup
+                </Link>
+                {/* <Nav.Link
                   href="#schedule-pickup"
                   className="btn btn-nav-white py-3 px-3"
                 >
                   Schedule a pickup
-                </Nav.Link>
+                </Nav.Link> */}
               </Nav>
             </Navbar.Collapse>
           </Container>

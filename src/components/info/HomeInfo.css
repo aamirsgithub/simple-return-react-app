@@ -165,3 +165,14 @@
 .container-margin{
     margin-bottom: 580px;
 }
+
+/* .container-margin-top{
+    margin-top: 580px;
+} */
+
+@media (max-width: 767px) {
+    .container-margin {
+      margin-bottom: 0;
+    }
+  }
+  

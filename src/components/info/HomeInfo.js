@@ -479,6 +479,7 @@ const HomeInfo = () => {
           {/* Rectangle Images small screen display none*/}
           <Col xs={12} md={6} className="d-none d-sm-none d-md-block">
             <div
+            className=""
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -540,8 +541,8 @@ const HomeInfo = () => {
         </Row>
       </Container>
       {/* Brands FedEx UPS etc */}
-      <Container fluid className="p-0">
-        <Row className="">
+      <Container fluid className="p-0 ">
+        <Row className="mb-4">
           <Col
             sm={6}
             md={6}
