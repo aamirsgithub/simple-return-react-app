@@ -328,7 +328,7 @@ const HomeInfo = () => {
         </Row>
       </Container>
       ;{/* Display none when screen is small */}
-      <Container fluid className="p-0 d-none d-sm-none d-md-block ">
+      <Container fluid className="p-0 d-none d-sm-none d-md-none d-lg-block">
         <div
           className="delivery-boxes-background "
           style={{
@@ -477,7 +477,7 @@ const HomeInfo = () => {
             </div>
           </Col>
           {/* Rectangle Images small screen display none*/}
-          <Col xs={12} md={6} className="d-none d-sm-none d-md-block">
+          <Col xs={12} md={6} className="d-none d-sm-none d-md-none d-lg-block">
             <div
             className=""
               style={{

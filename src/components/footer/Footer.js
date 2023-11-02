@@ -8,7 +8,7 @@ const Footer = () => {
     <>
       <Container fluid className="my-5 d-flex justify-content-center">
         <Row className="w-75 footer-cyan-bg">
-          <Col md={9} className="d-flex align-items-center">
+          <Col md={7} className="d-flex align-items-center">
             <div className="ms-5 text-white">
               <h3 className="fw-bold">Ready to get started?</h3>
               <p className="fs-6">
@@ -17,7 +17,7 @@ const Footer = () => {
             </div>
           </Col>
           <Col
-            md={3}
+            md={5}
             className="d-flex justify-content-center align-items-center"
           >
             <a className="btn btn-schedule-pickup-footer" href="#">

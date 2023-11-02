@@ -1,16 +1,42 @@
-.bg-cyan{
-    background-color: #7DF9FF;
+.logo-on-small{
+    border-radius: 10px;
+    background: #ffffff;
+    padding: 5px 15px 5px 15px;
+    
+}
+@media (min-width: 769px) {
+    .logo-on-small {
+      display: none !important;
+    }
+  }
+ 
+@media (max-width: 768px) {
+    .logo-bg {
+      display: none !important;
+    }
+  }
+  
+
+  .logo-bg{
+    border-radius: 10px;
+    background: #ffffff;
+    padding: 5px 15px 5px 15px;
+    margin: 0px;
 }
 
-.logo-bg{
-    border-radius: 5px;
-    background: #FEFEFE;
+.logo-custom-margin{
+    margin-right: 155px;
+}
+  
+.bg-cyan{
+    background-color: #7DF9FF;
 }
 
 .btn-nav-white{
     border: 1px solid #ffffff; 
     border-radius: 0px 10px 10px 10px;
     background: #FFF;
+    padding: 15px 15px 15px 15px;
 }
 
 .btn-nav-white:hover{

@@ -8,15 +8,23 @@ const NavbarComponent = () => {
   return (
     <>
       <Container fluid className="p-0">
-        <Navbar expand="lg" className="bg-cyan">
+        <div className="d-flex justify-content-center bg-cyan pt-3">
+          <div className="logo-on-small">
+            <a>
+              <img src={BrandLogo} alt="Brand Logo" />
+            </a>
+          </div>
+        </div>
+
+        <Navbar expand="lg" className="bg-cyan pb-4">
           <Container>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto">
-                <Link to="/home" className="Link me-3">
+              <Nav>
+                <Link to="/home" className="Link me-5 my-1">
                   Home
                 </Link>
-                <Link to="/about" className="Link me-3">
+                <Link to="/about" className="Link me-5 my-1">
                   About
                 </Link>
                 {/* <NavDropdown
@@ -28,42 +36,36 @@ const NavbarComponent = () => {
                   <NavDropdown.Item href="#action/3.2">Item 2</NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.3">Item 3</NavDropdown.Item>
                 </NavDropdown> */}
-                <Link to="/Pricing" className="Link me-3">
+                <Link to="/Pricing" className="Link me-5 my-1">
                   Pricing
                 </Link>
-                <Link to="/how-it-works" className="Link">
+                <Link to="/how-it-works" className="Link my-1">
                   How it works
                 </Link>
               </Nav>
-              <Nav className="logo-bg mx-auto my-2">
-                <Navbar.Brand href="#brand-logo">
-                  <div className="logo-bg px-4 py-0">
-                    <a href="#home">
-                      <img
-                        src={BrandLogo}
-                        width="221px"
-                        height="33px"
-                        style={{ flexShrink: 0 }}
-                        alt="Brand Logo"
-                      />
+
+              <Nav className=" ms-5 logo-custom-margin">
+                <Navbar.Brand>
+                  <div className="d-flex justify-content-center logo-bg">
+                    <a>
+                      <img src={BrandLogo} alt="Brand Logo" />
                     </a>
                   </div>
                 </Navbar.Brand>
               </Nav>
-              <Nav>
-              <Link to="/sign-in" className="Link me-2 mt-3">
+
+              <Nav className="">
+                <Link to="/sign-in" className="Link me-5 my-1 ">
                   Sign in
                 </Link>
-
-                <Link to="/schedule-pickup" className="Link btn btn-nav-white py-3 px-3">
-                Schedule a pickup
-                </Link>
-                {/* <Nav.Link
-                  href="#schedule-pickup"
-                  className="btn btn-nav-white py-3 px-3"
+              </Nav>
+              <Nav className="">
+                <Link
+                  to="/schedule-pickup"
+                  className="d-flex justify-content-center Link btn btn-nav-white"
                 >
                   Schedule a pickup
-                </Nav.Link> */}
+                </Link>
               </Nav>
             </Navbar.Collapse>
           </Container>

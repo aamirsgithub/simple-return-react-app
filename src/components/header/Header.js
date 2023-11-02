@@ -52,10 +52,7 @@ const Header = () => {
           </Row>
 
           <Row className="px-5 mt-3">
-            <Col
-              lg={5}
-              className="d-flex flex-row flex-wrap justify-content-center justify-content-lg-start"
-            >
+            <Col lg={5} className="d-flex justify-content-center">
               <CustomComponent />
             </Col>
           </Row>
